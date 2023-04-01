@@ -1,2 +1,19 @@
-package com.driver.Enum;public enum CountryName {
+package com.driver.Enum;
+
+public enum CountryName {
+    IND("001"),
+    USA("002"),
+    AUS("003"),
+    CHI("004"),
+    JPN("005");
+
+    private final String code;
+
+    private CountryName(String s) {
+        code = s;
+    }
+
+    public String toCode() {
+        return this.code;
+    }
 }
