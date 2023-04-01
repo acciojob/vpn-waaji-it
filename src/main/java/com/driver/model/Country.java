@@ -1,7 +1,7 @@
 // Note: Do not write @Enumerated annotation above CountryName in this model.
 package com.driver.model;
 
-import com.driver.Enum.CountryName;
+import com.driver.model.CountryName;
 
 import javax.persistence.*;
 

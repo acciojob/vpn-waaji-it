@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.driver.model.Admin;
 import com.driver.model.Country;
-import com.driver.Enum.CountryName;
+import com.driver.model.CountryName;
 
 import com.driver.model.ServiceProvider;
 

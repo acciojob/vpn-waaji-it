@@ -1,5 +1,5 @@
 package com.driver.services.impl;
-import com.driver.Enum.CountryName;
+import com.driver.model.CountryName;
 import com.driver.repository.CountryRepository;
 import com.driver.repository.ServiceProviderRepository;
 import com.driver.repository.UserRepository;
